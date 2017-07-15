@@ -14,6 +14,13 @@
 		650E3F211DCFED7A00693D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650E3F1F1DCFED7A00693D3B /* LaunchScreen.storyboard */; };
 		650E3F2C1DCFED7A00693D3B /* ContactPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E3F2B1DCFED7A00693D3B /* ContactPrototypeTests.swift */; };
 		650E3F371DCFED7A00693D3B /* ContactPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E3F361DCFED7A00693D3B /* ContactPrototypeUITests.swift */; };
+		6516FA8C1DD9643900980A53 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6516FA8B1DD9643900980A53 /* CustomerTableViewCell.swift */; };
+		6518B0C21E00D70B00D536DE /* CustomerPicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6518B0C11E00D70B00D536DE /* CustomerPicCollectionViewController.swift */; };
+		65C3F05D1DF36DF00044A375 /* CustomerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C3F05C1DF36DF00044A375 /* CustomerDetailViewController.swift */; };
+		65D3C3371DDAA5A4006AFBB9 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D3C3361DDAA5A4006AFBB9 /* Customer.swift */; };
+		65D3C3391DDABA83006AFBB9 /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D3C3381DDABA83006AFBB9 /* CustomerTableViewController.swift */; };
+		65E9EC911DD174D10073C9C0 /* newCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E9EC901DD174D10073C9C0 /* newCustomerViewController.swift */; };
+		65EC072F1E1DF4B500B57F63 /* CustomerPicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EC072E1E1DF4B500B57F63 /* CustomerPicCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		650E3F321DCFED7A00693D3B /* ContactPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		650E3F361DCFED7A00693D3B /* ContactPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPrototypeUITests.swift; sourceTree = "<group>"; };
 		650E3F381DCFED7A00693D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6516FA8B1DD9643900980A53 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		6518B0C11E00D70B00D536DE /* CustomerPicCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerPicCollectionViewController.swift; sourceTree = "<group>"; };
+		65C3F05C1DF36DF00044A375 /* CustomerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDetailViewController.swift; sourceTree = "<group>"; };
+		65D3C3361DDAA5A4006AFBB9 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		65D3C3381DDABA83006AFBB9 /* CustomerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
+		65E9EC901DD174D10073C9C0 /* newCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCustomerViewController.swift; sourceTree = "<group>"; };
+		65EC072E1E1DF4B500B57F63 /* CustomerPicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerPicCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				650E3F161DCFED7A00693D3B /* AppDelegate.swift */,
 				650E3F181DCFED7A00693D3B /* ViewController.swift */,
 				650E3F1A1DCFED7A00693D3B /* Main.storyboard */,
+				6518B0C11E00D70B00D536DE /* CustomerPicCollectionViewController.swift */,
+				65D3C3381DDABA83006AFBB9 /* CustomerTableViewController.swift */,
+				65D3C3361DDAA5A4006AFBB9 /* Customer.swift */,
+				65E9EC901DD174D10073C9C0 /* newCustomerViewController.swift */,
+				65C3F05C1DF36DF00044A375 /* CustomerDetailViewController.swift */,
+				6516FA8B1DD9643900980A53 /* CustomerTableViewCell.swift */,
+				65EC072E1E1DF4B500B57F63 /* CustomerPicCollectionViewCell.swift */,
 				650E3F1D1DCFED7A00693D3B /* Assets.xcassets */,
 				650E3F1F1DCFED7A00693D3B /* LaunchScreen.storyboard */,
 				650E3F221DCFED7A00693D3B /* Info.plist */,
@@ -193,6 +214,7 @@
 				TargetAttributes = {
 					650E3F121DCFED7900693D3B = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DZYLT39Q9T;
 						ProvisioningStyle = Automatic;
 					};
 					650E3F261DCFED7A00693D3B = {
@@ -260,7 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				650E3F191DCFED7A00693D3B /* ViewController.swift in Sources */,
+				65EC072F1E1DF4B500B57F63 /* CustomerPicCollectionViewCell.swift in Sources */,
+				65D3C3371DDAA5A4006AFBB9 /* Customer.swift in Sources */,
 				650E3F171DCFED7A00693D3B /* AppDelegate.swift in Sources */,
+				65E9EC911DD174D10073C9C0 /* newCustomerViewController.swift in Sources */,
+				6516FA8C1DD9643900980A53 /* CustomerTableViewCell.swift in Sources */,
+				6518B0C21E00D70B00D536DE /* CustomerPicCollectionViewController.swift in Sources */,
+				65D3C3391DDABA83006AFBB9 /* CustomerTableViewController.swift in Sources */,
+				65C3F05D1DF36DF00044A375 /* CustomerDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZYLT39Q9T;
 				INFOPLIST_FILE = ContactPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tyler-Brink.ContactPrototype";
@@ -424,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZYLT39Q9T;
 				INFOPLIST_FILE = ContactPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tyler-Brink.ContactPrototype";
@@ -505,6 +536,7 @@
 				650E3F3D1DCFED7A00693D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		650E3F3E1DCFED7A00693D3B /* Build configuration list for PBXNativeTarget "ContactPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +545,7 @@
 				650E3F401DCFED7A00693D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		650E3F411DCFED7A00693D3B /* Build configuration list for PBXNativeTarget "ContactPrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +554,7 @@
 				650E3F431DCFED7A00693D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
